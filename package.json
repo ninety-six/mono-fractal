@@ -1,8 +1,28 @@
 {
     "name": "mono",
-    "version": "1.0.0",
     "description": "A Fractal subtheme, built upon the default Mandelbrot theme.",
+    "version": "0.0.1",
     "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/accentdesign/mono"
+    },
+    "keywords": [
+        "fractal",
+        "subtheme",
+        "design",
+        "system",
+        "components"
+    ],
+    "author": "Accent Design <npm@accentdesign.co.uk>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/accentdesign/mono/issues"
+    },
+    "homepage": "https://github.com/accentdesign/mono",
     "dependencies": {
         "@frctl/mandelbrot": "^1.2.0"
     }

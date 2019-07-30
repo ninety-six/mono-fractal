@@ -4,8 +4,10 @@ A Fractal subtheme, built upon the default Mandelbrot theme.
 
 ## Installing
 
+Via the GitHub repo:
+
 ```Shell
-npm install git+ssh://git@github.com/AccentDesign/Mono.git
+npm install git+https://git@github.com/AccentDesign/Mono.git --save
 ```
 
 ## Setup
