@@ -1,0 +1,37 @@
+.Prose { max-width: 960px; }
+
+.Prose p { margin-bottom: 20px; }
+
+.Navigation-group .Tree h3.Tree-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 7px 10px;
+}
+
+.swatches {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-swatch {
+    border: .25px solid #F0F0F0;
+    margin: 0 25px 25px 0;
+    padding: 15px;
+    width: 250px;
+}
+
+.c-white { color: rgb(255, 255, 255); }
+
+#templates_themes dt { margin-bottom: 10px; }
+
+#templates_themes dd { margin-bottom: 50px; }
+
+.list--templates dd {
+    align-items: center;
+    display: flex;
+}
+
+.list--templates dd img { margin-right: 30px; }
+
+.list--themes dd p { margin-top: 20px; }

@@ -1,0 +1,9 @@
+{
+    "name": "mono",
+    "version": "1.0.0",
+    "description": "A Fractal subtheme, built upon the default Mandelbrot theme.",
+    "main": "index.js",
+    "dependencies": {
+        "@frctl/mandelbrot": "^1.2.0"
+    }
+}
