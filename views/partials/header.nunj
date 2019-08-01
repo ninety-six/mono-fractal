@@ -1,0 +1,11 @@
+<div class="Header">
+    <a href="{{ path('/') }}">{{ frctl.get('project.title') | default('Component Library') }}</a>
+    {% if frctl.get('project.repository') %}
+    <div class="Header-Utils">
+        <span>{{ frctl.get('project.version') }}</span>
+        <a href="{{ frctl.get('project.repository') }}" target="blank">
+            {% include 'icons/icon-github.svg' %}
+        </a>
+    </div>
+    {% endif %}
+</div>
