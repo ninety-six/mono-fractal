@@ -1,0 +1,105 @@
+/* Sidebar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Navigation { padding-right: 20px; }
+
+.Tree-title {
+    background-color: whitesmoke;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: rgba(34,37,43,.54);
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding: 12px 40px;
+}
+
+[dir="ltr"] .Tree-title { padding-left: 40px; }
+
+.Tree-items.Tree-depth-1 { padding-top: 5px; }
+
+.Tree-item {
+    color: rgba(34,37,43,.87);
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.Tree-entityLink {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 7px 40px !important;
+}
+
+.is-current .Tree-entityLink { background-color: whitesmoke; }
+
+.Navigation-group + .Navigation-group { margin-top: 40px; }
+
+#tree-components-collection-atoms,
+#tree-components-collection-molecules,
+#tree-components-collection-organisms,
+#tree-components-collection-templates,
+#tree-components-collection-pages {
+    border-bottom: 1px solid $color-light-grey;
+    margin: 0 40px;
+    padding: 10px 0 15px;
+    > h3 {
+        color: rgba(34,37,43,.87);
+        font-family: $font-family;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 7px 0 !important;
+        text-transform: uppercase;
+        span {
+            padding-left: 40px !important;
+            &:before {
+                height: 26px;
+                left: 0 !important;
+                top: 2px;
+                width: 26px;
+            }
+        }
+    } 
+}
+
+#tree-components-collection-atoms {
+    padding-top: 5px;
+    > h3 span:before { background-image: url('img/icon-atoms.svg') !important; }
+}
+#tree-components-collection-molecules > h3 span:before { background-image: url('img/icon-molecules.svg') !important; }
+#tree-components-collection-organisms > h3 span:before { background-image: url('img/icon-organisms.svg') !important; }
+#tree-components-collection-templates > h3 span:before { background-image: url('img/icon-templates.svg') !important; }
+#tree-components-collection-pages > h3 span:before { background-image: url('img/icon-pages.svg') !important; }
+
+.Tree-collectionItems {
+    margin-left: 40px;
+    .Tree-entityLink {
+        margin-left: -20px !important;
+        padding: 7px 20px !important;
+    }
+    .Tree-collectionItems { margin-left: 20px; }
+}
+
+.Tree-collectionLabel {
+    padding-left: 0 !important;
+    span {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        &:before {
+            background-image: url('img/icon-navigation-opened.svg') !important;
+            background-size: auto;
+            left: initial !important;
+            opacity: 1;
+            right: 0 !important;
+            top: 5px;
+        }
+    }
+    &:hover {
+        background-color: transparent;
+        color: $color-grey !important;
+        transition: all 0.15s ease-out;
+    }
+}
+
+.Tree-collection.is-closed .Tree-collectionLabel span:before { background-image: url('img/icon-navigation-closed.svg') !important; }

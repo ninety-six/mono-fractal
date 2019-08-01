@@ -1,0 +1,15 @@
+/* Frame
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Frame-body { height: calc(100% - 100px); }
+
+.Frame-panel--main { width: calc(100% - 320px); }
+
+.Frame-panel--sidebar {
+    background-color: transparent;
+    border-inline-end: none;
+    padding: 0 0 20px;
+    min-width: 320px;
+}
+
+[dir="ltr"] .Frame-panel--sidebar { border-right: none; }

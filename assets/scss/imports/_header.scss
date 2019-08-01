@@ -1,0 +1,27 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Header {
+    background-color: white;
+    border-bottom: 1px solid $color-light-grey;
+    box-shadow: none;
+    color: $color-black;
+    height: 60px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    padding: 0 40px;
+    a {
+        font-size: 21px;
+        font-weight: 700;
+    }
+}
+
+.Header-Utils {
+    align-items: center;
+    display: flex;
+    a {
+        margin-left: 30px;
+        svg path { transition: fill 0.15s ease-out; }
+        &:hover svg path { fill: $color-grey; }
+    }
+}

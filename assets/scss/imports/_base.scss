@@ -1,0 +1,13 @@
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    color: $color-black;
+    font-family: $font-family;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover { color: $color-grey; }
+}

@@ -1,0 +1,85 @@
+/* Pen
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Pen {
+    margin: 0 20px 0 80px;
+    overflow: auto;
+}
+
+.Pen-top {
+    display: flex;
+    margin: 0 20px 40px 0;
+}
+
+.Pen-info {
+    border: none;
+    margin: 0 0 0 40px;
+    width: 50%;
+}
+
+.Browser { position: relative; }
+
+.Browser-controls { box-shadow: none; }
+
+.Browser-tab {
+    flex: initial;
+    a {
+        border-bottom: 0;
+        color: rgba(34,37,43,.87);
+        font-family: $font-family;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px 20px;
+        &:hover { background-color: whitesmoke; }
+    }
+    &.is-active a {
+        background-color: whitesmoke;
+        font-weight: 400;
+    }
+}
+
+.Browser-panel {
+    background-color: whitesmoke;
+    padding: 20px;
+    .Code { background-color: whitesmoke; }
+}
+
+.Pen-header {
+    border-bottom: 1px solid $color-light-grey;
+    justify-content: space-between;
+    margin: 0 20px 40px 0;
+    max-height: initial;
+    padding: 0 0 10px;
+    .Status {
+        display: inline-block;
+        margin-left: 40px !important;
+        padding-left: 0 !important;
+        vertical-align: bottom;
+    }
+}
+
+.Pen-title {
+    color: $color-black;
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Pen-previewLink {
+    background-color: transparent;
+    border: 1px solid $color-grey;
+    color: $color-grey;
+    padding: 7px 20px;
+    svg {
+        margin-left: 10px;
+        opacity: 1;
+    }
+    &:hover { background-color: whitesmoke; }
+}
+
+.Pen-preview {
+    background-color: white;
+    border: none;
+    margin: 0 20px 20px 0;
+    overflow-x: hidden;
+}
