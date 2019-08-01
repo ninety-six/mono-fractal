@@ -2,7 +2,7 @@
 
 {% macro tree(root, current, request) %}
 <div class="Tree" data-behaviour="tree" id="tree-{{ root.name }}">
-    <h3 class="Tree-title">{{ root.label }}</h3>
+    <h2 class="Tree-title">{{ root.label }}</h2>
     <ul class="Tree-items Tree-depth-1">
         {{ leaves(root.filter('isHidden', false).items(), root, current, 2, request) }}
     </ul>
@@ -13,9 +13,9 @@
     {% for item in items %}
         {% if item.isCollection or (item.isComponent and not item.isCollated and item.variants().filter('isHidden', false).size > 1) %}
         <li class="Tree-item Tree-collection Tree-depth-{{ depth }}" data-behaviour="collection" id="tree-{{ root.name }}-collection-{{ item.handle }}">
-            <h4 class="Tree-collectionLabel" data-role="toggle">
+            <h3 class="Tree-collectionLabel" data-role="toggle">
                 <span>{{ item.label }}</span>
-            </h4>
+            </h3>
             <ul class="Tree-collectionItems" data-role="items">
             {% if item.isComponent and not item.isCollated %}
             {% set items = item.variants().filter('isHidden', false).items() %}
