@@ -37,7 +37,7 @@ const webUITheme = require('mono');
 fractal.web.theme(webUITheme); // use the sub-classed theme
 ```
 
-*Note* - On Windows, a conflicting command-line application prevents you from running Fractal commands from the project's root directory (where your ```fractal.js``` config file will live). To work around this you can rename your config file ```fractal.config.js``` and then enter the following code to your ```package.json``` file:
+**Note** - On Windows, a conflicting command-line application prevents you from running Fractal commands from the project's root directory (where your ```fractal.js``` config file will live). To work around this you can rename your config file ```fractal.config.js``` and then enter the following code to your ```package.json``` file:
 
 ```
 "fractal": {
