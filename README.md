@@ -2,7 +2,7 @@
 
 A Fractal subtheme, built upon the default Mandelbrot theme.
 
-![Mono screenshot](https://github.com/AccentDesign/Mono/screenshot.jpg "Mono screenshot")
+![Mono screenshot](screenshot.jpg "Mono screenshot")
 
 ## Features
 
