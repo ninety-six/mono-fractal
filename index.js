@@ -9,7 +9,7 @@ const mandelbrot = require('@frctl/mandelbrot');
 const subTheme = mandelbrot({
     nav: ['docs', 'components'],
     skin: 'white',
-    styles: ['default', '/mono-theme/webui.css', '/webui-overrides/webui.css'],
+    styles: ['default', '/mono-theme/webui.min.css', '/webui-overrides/overrides.css'],
     panels: ['view', 'context', 'html'],
     favicon: '/mono-theme/favicon.ico'
 });
@@ -17,7 +17,7 @@ const subTheme = mandelbrot({
 /*
  * Specify a template directory to override any view templates
  */
-subTheme.addLoadPath(__dirname + '/views');
+subTheme.addLoadPath(__dirname + '/webui-overrides');
 
 /*
  * Specify the static assets directory that contains the custom stylesheet.
