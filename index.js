@@ -9,7 +9,7 @@ const mandelbrot = require('@frctl/mandelbrot');
 const subTheme = mandelbrot({
     nav: ['docs', 'components'],
     skin: 'white',
-    styles: ['default', '/mono-theme/webui.min.css'],
+    styles: ['default', '/mono-theme/webui.min.css', '/webui.css'],
     panels: ['view', 'context', 'html'],
     favicon: '/mono-theme/favicon.ico'
 });
