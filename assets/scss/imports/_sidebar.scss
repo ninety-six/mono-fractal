@@ -72,17 +72,23 @@
 #tree-components-collection-templates > h3 span:before { background-image: url('img/icon-templates.svg') !important; }
 #tree-components-collection-pages > h3 span:before { background-image: url('img/icon-pages.svg') !important; }
 
+.Tree-depth-3 > .Tree-collectionLabel { padding: 7px 20px !important; }
+.Tree-depth-4 > .Tree-collectionLabel { padding: 7px 20px !important; }
+
 .Tree-collectionItems {
     margin-left: 40px;
     .Tree-entityLink {
-        margin-left: -20px !important;
+        margin-left: 0 !important;
         padding: 7px 20px !important;
     }
     .Tree-collectionItems { margin-left: 20px; }
 }
 
 .Tree-collectionLabel {
-    padding-left: 0 !important;
+    color: rgba(34,37,43,.87);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 7px 40px !important;
     span {
         margin-left: 0 !important;
         padding-left: 0 !important;
