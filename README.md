@@ -15,10 +15,12 @@ A Fractal subtheme, built upon the default Mandelbrot theme.
 
 ## Installing
 
+Follow the instructions on how to [install Fractal](https://fractal.build/guide/installation.html) and ['Getting Started'](https://fractal.build/guide/getting-started.html) before installing the Mono subtheme using a command line tool from your project root directory.
+
 Via the GitHub repo:
 
 ```Shell
-npm install git+https://git@github.com/AccentDesign/Mono.git --save
+npm install --save git+https://git@github.com/AccentDesign/Mono.git
 ```
 
 ## Setup
