@@ -4,7 +4,8 @@
 .Navigation { padding-right: 20px; }
 
 .Tree-title {
-    background-color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid $color-light-grey;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     color: rgba(34,37,43,.54);
