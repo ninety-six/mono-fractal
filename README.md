@@ -39,7 +39,7 @@ const webUITheme = require('mono')({});
 fractal.web.theme(webUITheme); // use the sub-classed theme
 ```
 
-The Mono theme can be configured using many of the same [options](https://fractal.build/guide/web/default-theme.html#configuration) as the Mandelbrot theme. Any styles and scripts added will be merged into their respective array of files so you needed specify the themes `default` stylesheet and script but it they will always be included.
+The Mono theme can be configured using many of the same [options](https://fractal.build/guide/web/default-theme.html#configuration) as the Mandelbrot theme. Any styles and scripts added will be merged into their respective array of files so you need not specify the themes `default` stylesheet and script but they will always be included.
 
 **Note** - On Windows, a conflicting command-line application prevents you from running Fractal commands from the project's root directory (where your `fractal.js` config file will live). To work around this you can rename your config file `fractal.config.js` and then enter the following code to your `package.json` file:
 
