@@ -1,5 +1,5 @@
 {
-    "name": "mono",
+    "name": "mono-fractal",
     "description": "A Fractal subtheme, built upon the default Mandelbrot theme.",
     "version": "1.0.0",
     "main": "index.js",
