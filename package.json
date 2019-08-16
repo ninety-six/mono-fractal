@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/accentdesign/mono"
+        "url": "https://github.com/accentdesign/mono-fractal"
     },
     "keywords": [
         "fractal",
@@ -20,9 +20,9 @@
     "author": "Accent Design <npm@accentdesign.co.uk>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/accentdesign/mono/issues"
+        "url": "https://github.com/accentdesign/mono-fractal/issues"
     },
-    "homepage": "https://github.com/accentdesign/mono",
+    "homepage": "https://github.com/accentdesign/mono-fractal",
     "dependencies": {
         "@frctl/mandelbrot": "^1.2.0",
         "lodash": "^4.17.15"

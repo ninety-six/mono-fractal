@@ -26,7 +26,7 @@ npm install --save mono-fractal
 Via the GitHub repo:
 
 ```Shell
-npm install --save git+https://git@github.com/AccentDesign/Mono.git
+npm install --save git+https://git@github.com/AccentDesign/mono-fractal.git
 ```
 
 ## Setup
@@ -38,7 +38,7 @@ In the [setup file](https://fractal.build/guide/project-settings.html#the-fracta
 'use strict';
 
 const fractal = module.exports = require('@frctl/fractal').create();
-const webUITheme = require('mono')({});
+const webUITheme = require('mono-fractal')({});
 
 // ... project setup and configuration
 
