@@ -1,14 +1,14 @@
 {
     "name": "mono-fractal",
     "description": "A Fractal subtheme, built upon the default Mandelbrot theme.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/accentdesign/mono-fractal"
+        "url": "https://github.com/ninety-six/mono-fractal"
     },
     "keywords": [
         "fractal",
@@ -17,12 +17,12 @@
         "system",
         "components"
     ],
-    "author": "Accent Design <npm@accentdesign.co.uk>",
+    "author": "Ben Hall <benhall.ninetysix@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/accentdesign/mono-fractal/issues"
+        "url": "https://github.com/ninety-six/mono-fractal/issues"
     },
-    "homepage": "https://github.com/accentdesign/mono-fractal",
+    "homepage": "https://github.com/ninety-six/mono-fractal",
     "dependencies": {
         "@frctl/mandelbrot": "^1.2.0",
         "lodash": "^4.17.15"

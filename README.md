@@ -26,7 +26,7 @@ npm install --save mono-fractal
 Via the GitHub repo:
 
 ```Shell
-npm install --save git+https://git@github.com/AccentDesign/mono-fractal.git
+npm install --save git+https://git@github.com/ninety-six/mono-fractal.git
 ```
 
 ## Setup
@@ -57,7 +57,7 @@ The Mono theme can be configured using many of the same [options](https://fracta
 
 ## Fractal Atomic Starter Project
 
-We have also developed a great set of folders & files that can be used as an awesome starter point for your Fractal UI component library. It's features include:
+I have also developed a great set of folders & files that can be used as an awesome starter point for your Fractal UI component library. It's features include:
 
 - Use of [Twig](https://twig.symfony.com/) as the templating engine
 - Component folder structure based on Atomic Design principles
@@ -66,4 +66,4 @@ We have also developed a great set of folders & files that can be used as an awe
 - Statuses for components & documentation pages improved
 - Template export function included
 
-You can find out more about Fractal Atomic [here](https://github.com/AccentDesign/Fractal-Atomic)
+You can find out more about Fractal Atomic [here](https://github.com/ninety-six/Fractal-Atomic).
