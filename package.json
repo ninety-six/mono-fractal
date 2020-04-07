@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ninety-six/mono-fractal"
+        "url": "git+https://github.com/ninety-six/mono-fractal.git"
     },
     "keywords": [
         "fractal",
@@ -22,7 +22,7 @@
     "bugs": {
         "url": "https://github.com/ninety-six/mono-fractal/issues"
     },
-    "homepage": "https://github.com/ninety-six/mono-fractal",
+    "homepage": "https://github.com/ninety-six/mono-fractal#readme",
     "dependencies": {
         "@frctl/mandelbrot": "^1.2.0",
         "lodash": "^4.17.15"

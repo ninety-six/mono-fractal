@@ -11,7 +11,7 @@ A Fractal subtheme, built upon the default Mandelbrot theme.
 - Component notes displayed more prominently
 - Tabbed 'View', 'HTML', and 'Context' area made more user friendly & accessible
 - More 'baked-in' styling for Documentation pages
-- A solid foundation which can be used in conjunction with the [Fractal Atomic](https://github.com/AccentDesign/Fractal-Atomic) starter project or inserted in your existing Fractal project
+- A solid foundation which can be used in conjunction with the [Fratomic](https://github.com/ninety-six/fratomic) starter project or inserted in your existing Fractal project
 
 ## Installing
 
