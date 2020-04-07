@@ -11,25 +11,32 @@ A Fractal subtheme, built upon the default Mandelbrot theme.
 - Component notes displayed more prominently
 - Tabbed 'View', 'HTML', and 'Context' area made more user friendly & accessible
 - More 'baked-in' styling for Documentation pages
-- A solid foundation which can be used in conjunction with the [Fratomic](https://github.com/ninety-six/fratomic) starter project or inserted in your existing Fractal project
+- A solid foundation which can be easily installed into your existing Fractal project or used as part of the [Fratomic](https://github.com/ninety-six/fratomic) starter project (See below)
 
-## Installing
+## Installing from Scratch
 
-Follow the instructions on how to [install Fractal](https://fractal.build/guide/installation.html) and ['Getting Started'](https://fractal.build/guide/getting-started.html) before installing the Mono subtheme using a command line tool from your project root directory.
+### Installing Fractal
 
-Via NPM:
+1. Follow the instructions on how to [install Fractal](https://fractal.build/guide/installation.html).
+2. Follow the instructions on ['Getting Started'](https://fractal.build/guide/getting-started.html).
+
+### Installing Mono Subtheme
+
+You can now install the Mono subtheme using a command line tool from your project root directory using your method of choice.
+
+via NPM:
 
 ```Shell
 npm install --save mono-fractal
 ```
 
-Via the GitHub repo:
+via the GitHub repo:
 
 ```Shell
 npm install --save git+https://git@github.com/ninety-six/mono-fractal.git
 ```
 
-## Setup
+### Setting up your Fractal install to use Mono
 
 In the [setup file](https://fractal.build/guide/project-settings.html#the-fractal-js-file) for your project you can `require` and use the subtheme:
 
@@ -45,7 +52,7 @@ const webUITheme = require('mono-fractal')({});
 fractal.web.theme(webUITheme); // use the sub-classed theme
 ```
 
-The Mono theme can be configured using many of the same [options](https://fractal.build/guide/web/default-theme.html#configuration) as the Mandelbrot theme. Any styles and scripts added will be merged into their respective array of files so you need not specify the themes `default` stylesheet and script but they will always be included.
+The Mono subtheme can be configured using many of the same [options](https://fractal.build/guide/web/default-theme.html#configuration) as the Mandelbrot theme. Any styles and scripts added will be merged into their respective array of files so you need not specify the themes `default` stylesheet and script but they will always be included.
 
 **Note** - On Windows, a conflicting command-line application prevents you from running Fractal commands from the project's root directory (where your `fractal.js` config file will live). To work around this you can rename your config file `fractal.config.js` and then enter the following code to your `package.json` file:
 
@@ -55,9 +62,9 @@ The Mono theme can be configured using many of the same [options](https://fracta
 }
 ```
 
-## Fractal Atomic Starter Project
+## Fratomic
 
-I have also developed a great set of folders & files that can be used as an awesome starter point for your Fractal UI component library. It's features include:
+If you're wanting to give your Fractal-based project a leg up, I have also developed a great set of folders & files that can be used as an awesome starter point for your Fractal UI component library utilising this Mono theme. It's features include:
 
 - Use of [Twig](https://twig.symfony.com/) as the templating engine
 - Component folder structure based on Atomic Design principles
@@ -66,4 +73,4 @@ I have also developed a great set of folders & files that can be used as an awes
 - Statuses for components & documentation pages improved
 - Template export function included
 
-You can find out more about Fractal Atomic [here](https://github.com/ninety-six/Fractal-Atomic).
+You can find out more about Fratomic [here](https://github.com/ninety-six/fratomic).
