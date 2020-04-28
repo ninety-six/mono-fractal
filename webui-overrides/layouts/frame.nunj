@@ -13,7 +13,7 @@
 
         <div class="Frame-panel Frame-panel--main" data-role="main">
             <div class="Frame-inner" id="pjax-container">
-            {% block content %}{% endblock %}
+                {% block content %}{% endblock %}
             </div>
         </div>
         

@@ -1,4 +1,4 @@
 <div class="Pen-panel Pen-header">
     <h2 class="Pen-title">{{ entity.title }}{{ status.tag(entity.status) }}</h2>
-    <a class="Pen-previewLink" href="{{ previewUrl }}" title="Component Preview">Component Preview{% include 'icons/icon-open-in-browser.svg' %}</a>
+    <a class="Pen-previewLink" href="{{ previewUrl }}" target="_blank" title="Component Preview">Component Preview{% include 'icons/icon-open-in-browser.svg' %}</a>
 </div>

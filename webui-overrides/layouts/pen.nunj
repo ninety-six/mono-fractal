@@ -30,13 +30,13 @@
     
         {% include 'partials/notes.nunj' %}
 
-        {% include 'partials/pen/browser.nunj' %}
-
     </div>
 
     {% include 'partials/pen/header.nunj' %}
 
     {% include 'partials/pen/preview.nunj' %}
+
+    {% include 'partials/pen/browser.nunj' %}
 
     {% endblock %}
 
