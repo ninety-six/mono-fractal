@@ -8,11 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
-- README updated
 
 ### Fixed
 
 ### Removed
+
+## [1.1.0] - 2020-04-28
+### Added
+- Scss build packages & scripts
+- Search filter for Components & Documentation
+
+### Changed
+- README updated
+- Storybook-esque styling
+
+### Fixed
+- Browser pane moved to bottom of page
+- Sidebar toggle reintroduced
 
 ## [1.0.2] - 2020-04-07
 ### Added
@@ -32,7 +44,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial build
 
-[Unreleased]: https://github.com/ninety-six/mono-fractal/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/ninety-six/mono-fractal/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.1.0
 [1.0.2]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.0.2
 [1.0.1]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.0.1
 [1.0.0]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.0.0
