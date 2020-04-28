@@ -20,6 +20,8 @@ A Fractal subtheme, built upon the default Mandelbrot theme.
 1. Follow the instructions on how to [install Fractal](https://fractal.build/guide/installation.html).
 2. Follow the instructions on ['Getting Started'](https://fractal.build/guide/getting-started.html).
 
+**Note** - if you rename the Documentation file ```01-index.md``` that comes with the base install of Fractal, the UI library will use the homepage included with the theme you are using whether that be Mandelbrot or Mono.
+
 ### Installing Mono Subtheme
 
 You can now install the Mono subtheme using a command line tool from your project root directory using your method of choice.
