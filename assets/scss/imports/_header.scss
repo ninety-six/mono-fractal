@@ -7,21 +7,41 @@
     box-shadow: none;
     color: $color-black;
     height: 60px;
-    margin-bottom: 40px;
     justify-content: space-between;
-    padding: 0 40px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    > div {
+        align-items: center;
+        display: flex;
+    }
     a {
         font-size: 21px;
         font-weight: 700;
     }
 }
 
-.Header-Utils {
-    align-items: center;
-    display: flex;
-    a {
-        margin-left: 30px;
-        svg path { transition: fill 0.15s ease-out; }
-        &:hover svg path { fill: $color-grey; }
+[dir=ltr], [dir=rtl] {
+    .Header-button {
+        border: 0 none;
+        border-right: 1px solid $color-light-grey;
+        transition: background-color 0.15s ease-out;
     }
+}
+
+.Header-navToggle {
+    height: 60px;
+    width: 60px;
+}
+
+.Header-title {
+    padding: 0 20px;
+    transition: color 0.15s ease-out;
+    &:hover { color: $color-grey; }
+}
+
+.Header-Utils a {
+    margin-left: 20px;
+    svg path { transition: fill 0.15s ease-out; }
+    &:hover svg path { fill: $color-grey; }
 }

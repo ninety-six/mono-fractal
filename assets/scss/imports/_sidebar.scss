@@ -1,41 +1,54 @@
 /* Sidebar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.Navigation { padding-right: 20px; }
+.Navigation-search { padding: 0 0 20px; }
 
-.Tree-title {
-    background-color: transparent;
-    border: 1px solid $color-light-grey;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    color: rgba(34,37,43,.54);
+.Tree-title, .Search-label {
+    background-color: whitesmoke;
+    border-top: 1px solid $color-light-grey;
+    border-bottom: 1px solid $color-light-grey;
+    color: rgba(34,37,43,.37);
+    display: block;
     font-family: $font-family;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: .75px;
     margin-bottom: 0;
-    padding: 12px 40px;
+    padding: 10px 20px 8px;
 }
 
-[dir="ltr"] .Tree-title { padding-left: 40px; }
+.Search-input {
+    border-radius: 0;
+    border: none;
+    font-size: 12px;
+    padding: 10px 20px 8px;
+}
+
+[dir="ltr"] .Tree-title { padding-left: 20px; }
+
+[dir="rtl"] .Tree-title { padding-right: 20px; }
 
 .Tree-items.Tree-depth-1 { padding-top: 5px; }
 
 .Tree-item {
     color: rgba(34,37,43,.87);
     font-family: inherit;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.Tree-entityLink {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding: 7px 40px !important;
+.Tree-aside {
+    color: rgba(34,37,43,.54);
+    font-family: inherit;
+    font-size: 12px;
 }
 
-.is-current .Tree-entityLink { background-color: whitesmoke; }
+[dir="ltr"], [dir="rtl"] {
+    .Tree-entityLink { padding: 5px 20px !important; }
+}
 
-.Navigation-group + .Navigation-group { margin-top: 40px; }
+.is-current .Tree-entityLink { background-color: white; }
+
+.Navigation-group + .Navigation-group { margin-top: 10px; }
 
 #tree-components-collection-atoms,
 #tree-components-collection-molecules,
@@ -43,26 +56,58 @@
 #tree-components-collection-templates,
 #tree-components-collection-pages {
     border-bottom: 1px solid $color-light-grey;
-    margin: 0 40px;
-    padding: 10px 0 15px;
+    padding: 8px 20px 7px;
     > h3 {
-        color: rgba(34,37,43,.87);
+        color: rgba(34,37,43,.54);
         font-family: $font-family;
-        font-size: 16px;
-        letter-spacing: 1px;
-        padding: 7px 0 !important;
+        font-size: 12px;
+        letter-spacing: .75px;
         text-transform: uppercase;
-        span {
-            padding-left: 40px !important;
-            &:before {
-                height: 26px;
-                left: 0 !important;
-                top: 2px;
-                width: 26px;
-            }
+        span:before {
+            height: 20px;
+            left: 0 !important;
+            top: 2px;
+            width: 20px;
         }
     }
-    .Tree-collectionItems { margin-left: 20px; }
+}
+
+[dir="ltr"] {
+    #tree-components-collection-atoms,
+    #tree-components-collection-molecules,
+    #tree-components-collection-organisms,
+    #tree-components-collection-templates,
+    #tree-components-collection-pages {
+        > h3 {
+            padding: 7px 0 !important;
+            span {
+                padding-left: 20px !important;
+                &:before {
+                    left: 0 !important;
+                }
+            }
+        }
+        .Tree-collectionItems .Tree-collectionItems { margin-left: 20px; }
+    }
+}
+
+[dir="rtl"] {
+    #tree-components-collection-atoms,
+    #tree-components-collection-molecules,
+    #tree-components-collection-organisms,
+    #tree-components-collection-templates,
+    #tree-components-collection-pages {
+        > h3 {
+            padding: 7px 0 7px !important;
+            span {
+                padding-right: 20px !important;
+                &:before {
+                    right: 0 !important;
+                }
+            }
+        }
+        .Tree-collectionItems .Tree-collectionItems { margin-right: 20px; }
+    }
 }
 
 #tree-components-collection-atoms {
@@ -74,11 +119,18 @@
 #tree-components-collection-templates > h3 span:before { background-image: url('img/icon-templates.svg') !important; }
 #tree-components-collection-pages > h3 span:before { background-image: url('img/icon-pages.svg') !important; }
 
-.Tree-depth-3 > .Tree-collectionLabel { padding: 7px 20px !important; }
-.Tree-depth-4 > .Tree-collectionLabel { padding: 7px 20px !important; }
+[dir="ltr"] {
+    .Tree-depth-3 > .Tree-collectionLabel { padding: 7px 20px !important; }
+    .Tree-depth-4 > .Tree-collectionLabel { padding: 7px 20px !important; }
+}
 
-.Tree-collectionItems {
-    margin-left: 40px;
+[dir="rtl"] {
+    .Tree-depth-3 > .Tree-collectionLabel { padding: 7px 0 !important; }
+    .Tree-depth-4 > .Tree-collectionLabel { padding: 7px 0 !important; }
+}
+
+[dir="ltr"] .Tree-collectionItems {
+    margin-left: 20px;
     .Tree-entityLink {
         margin-left: 0 !important;
         padding: 7px 20px !important;
@@ -86,27 +138,51 @@
     .Tree-collectionItems { margin-left: 20px; }
 }
 
+[dir="rtl"] .Tree-collectionItems {
+    margin-right: 20px;
+    .Tree-entityLink {
+        margin-right: 0 !important;
+        padding: 7px 0 !important;
+    }
+}
+
 .Tree-collectionLabel {
     color: rgba(34,37,43,.87);
     font-family: inherit;
-    font-size: 16px;
-    padding: 7px 40px !important;
-    span {
-        margin-left: 0 !important;
-        padding-left: 0 !important;
-        &:before {
-            background-image: url('img/icon-navigation-opened.svg') !important;
-            background-size: auto;
-            left: initial !important;
-            opacity: 1;
-            right: 0 !important;
-            top: 5px;
-        }
+    font-size: 14px;
+    padding: 5px 20px !important;
+    span:before {
+        background-image: url('img/icon-navigation-opened.svg') !important;
+        background-size: auto;
+        opacity: 1;
+        top: 5px;
     }
     &:hover {
         background-color: transparent;
         color: $color-grey !important;
         transition: all 0.15s ease-out;
+    }
+}
+
+[dir="ltr"] .Tree-collectionLabel {
+    span {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        &:before {
+            left: initial !important;
+            right: 0 !important;
+        }
+    }
+}
+
+[dir="rtl"] .Tree-collectionLabel {
+    span {
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+        &:before {
+            right: initial !important;
+            left: 0 !important;
+        }
     }
 }
 

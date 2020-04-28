@@ -1,15 +1,18 @@
 /* Frame
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.Frame-body { height: calc(100% - 100px); }
-
-.Frame-panel--main { width: calc(100% - 320px); }
-
-.Frame-panel--sidebar {
-    background-color: transparent;
-    border-inline-end: none;
-    padding: 0 0 20px;
-    min-width: 320px;
+.Frame-body {
+    height: calc(100% - 60px);
+    margin-top: 60px;
 }
 
-[dir="ltr"] .Frame-panel--sidebar { border-right: none; }
+.Frame-panel--main {width: calc(100% - 280px); }
+
+.Frame-panel--sidebar {
+    background-color: $color-off-white;
+    border-inline-end: none;
+    padding: 40px 0 0;
+    min-width: 280px;
+}
+
+[dir="ltr"] .Frame-panel--sidebar { border-right: 1px solid $color-light-grey; }
