@@ -32,7 +32,7 @@ module.exports = function(options) {
     }, _.clone(options || {}));
 
     config.panels = config.panels || ['view', 'context', 'html'];
-    config.nav = config.nav || ['docs', 'components'];
+    config.nav = config.nav || ['search', 'docs', 'components', 'assets', 'information'];
     config.favicon = config.favicon || '/mono-theme/favicon.ico';
 
     const subTheme = mandelbrot(config);
