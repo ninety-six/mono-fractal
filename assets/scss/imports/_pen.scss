@@ -24,6 +24,7 @@
 .Browser { position: relative; }
 
 .Browser-controls {
+    background-color: white;
     border-top: 1px solid $color-light-grey;
     border-bottom: 1px solid $color-light-grey;
     box-shadow: none;
@@ -55,7 +56,10 @@
     background-color: $color-off-white;
     min-height: 240px;
     padding: 20px;
-    .Code { background-color: $color-off-white; }
+    .Code {
+        background-color: $color-off-white;
+        pre { background-color: $color-off-white; }
+    }
 }
 
 .Pen-header {

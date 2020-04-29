@@ -89,7 +89,7 @@ a:hover{
   background-color:#FAFAFA;
   -webkit-border-end:none;
   border-inline-end:none;
-  padding:40px 0 0;
+  padding:40px 0 20px;
   min-width:280px;
 }
 
@@ -157,157 +157,25 @@ a:hover{
   margin-top:10px;
 }
 
-#tree-components-collection-atoms,
-#tree-components-collection-molecules,
-#tree-components-collection-organisms,
-#tree-components-collection-templates,
-#tree-components-collection-pages{
-  border-bottom:1px solid #EBECEE;
-  padding:8px 20px 7px;
-}
-
-#tree-components-collection-atoms > h3,
-#tree-components-collection-molecules > h3,
-#tree-components-collection-organisms > h3,
-#tree-components-collection-templates > h3,
-#tree-components-collection-pages > h3{
-  color:rgba(34, 37, 43, 0.54);
-  font-family:"Lato", sans-serif;
-  font-size:12px;
-  letter-spacing:.75px;
-  text-transform:uppercase;
-}
-
-#tree-components-collection-atoms > h3 span:before,
-#tree-components-collection-molecules > h3 span:before,
-#tree-components-collection-organisms > h3 span:before,
-#tree-components-collection-templates > h3 span:before,
-#tree-components-collection-pages > h3 span:before{
-  height:20px;
-  left:0 !important;
-  top:2px;
-  width:20px;
-}
-
-[dir="ltr"] #tree-components-collection-atoms > h3,
-[dir="ltr"] #tree-components-collection-molecules > h3,
-[dir="ltr"] #tree-components-collection-organisms > h3,
-[dir="ltr"] #tree-components-collection-templates > h3,
-[dir="ltr"] #tree-components-collection-pages > h3{
-  padding:7px 0 !important;
-}
-
-[dir="ltr"] #tree-components-collection-atoms > h3 span,
-[dir="ltr"] #tree-components-collection-molecules > h3 span,
-[dir="ltr"] #tree-components-collection-organisms > h3 span,
-[dir="ltr"] #tree-components-collection-templates > h3 span,
-[dir="ltr"] #tree-components-collection-pages > h3 span{
-  padding-left:20px !important;
-}
-
-[dir="ltr"] #tree-components-collection-atoms > h3 span:before,
-[dir="ltr"] #tree-components-collection-molecules > h3 span:before,
-[dir="ltr"] #tree-components-collection-organisms > h3 span:before,
-[dir="ltr"] #tree-components-collection-templates > h3 span:before,
-[dir="ltr"] #tree-components-collection-pages > h3 span:before{
-  left:0 !important;
-}
-
-[dir="ltr"] #tree-components-collection-atoms .Tree-collectionItems .Tree-collectionItems,
-[dir="ltr"] #tree-components-collection-molecules .Tree-collectionItems .Tree-collectionItems,
-[dir="ltr"] #tree-components-collection-organisms .Tree-collectionItems .Tree-collectionItems,
-[dir="ltr"] #tree-components-collection-templates .Tree-collectionItems .Tree-collectionItems,
-[dir="ltr"] #tree-components-collection-pages .Tree-collectionItems .Tree-collectionItems{
-  margin-left:20px;
-}
-
-[dir="rtl"] #tree-components-collection-atoms > h3,
-[dir="rtl"] #tree-components-collection-molecules > h3,
-[dir="rtl"] #tree-components-collection-organisms > h3,
-[dir="rtl"] #tree-components-collection-templates > h3,
-[dir="rtl"] #tree-components-collection-pages > h3{
-  padding:7px 0 7px !important;
-}
-
-[dir="rtl"] #tree-components-collection-atoms > h3 span,
-[dir="rtl"] #tree-components-collection-molecules > h3 span,
-[dir="rtl"] #tree-components-collection-organisms > h3 span,
-[dir="rtl"] #tree-components-collection-templates > h3 span,
-[dir="rtl"] #tree-components-collection-pages > h3 span{
-  padding-right:20px !important;
-}
-
-[dir="rtl"] #tree-components-collection-atoms > h3 span:before,
-[dir="rtl"] #tree-components-collection-molecules > h3 span:before,
-[dir="rtl"] #tree-components-collection-organisms > h3 span:before,
-[dir="rtl"] #tree-components-collection-templates > h3 span:before,
-[dir="rtl"] #tree-components-collection-pages > h3 span:before{
-  right:0 !important;
-}
-
-[dir="rtl"] #tree-components-collection-atoms .Tree-collectionItems .Tree-collectionItems,
-[dir="rtl"] #tree-components-collection-molecules .Tree-collectionItems .Tree-collectionItems,
-[dir="rtl"] #tree-components-collection-organisms .Tree-collectionItems .Tree-collectionItems,
-[dir="rtl"] #tree-components-collection-templates .Tree-collectionItems .Tree-collectionItems,
-[dir="rtl"] #tree-components-collection-pages .Tree-collectionItems .Tree-collectionItems{
-  margin-right:20px;
-}
-
-#tree-components-collection-atoms{
-  padding-top:5px;
-}
-
-#tree-components-collection-atoms > h3 span:before{
-  background-image:url("img/icon-atoms.svg") !important;
-}
-
-#tree-components-collection-molecules > h3 span:before{
-  background-image:url("img/icon-molecules.svg") !important;
-}
-
-#tree-components-collection-organisms > h3 span:before{
-  background-image:url("img/icon-organisms.svg") !important;
-}
-
-#tree-components-collection-templates > h3 span:before{
-  background-image:url("img/icon-templates.svg") !important;
-}
-
-#tree-components-collection-pages > h3 span:before{
-  background-image:url("img/icon-pages.svg") !important;
-}
-
 [dir="ltr"] .Tree-depth-3 > .Tree-collectionLabel{
-  padding:7px 20px !important;
+  padding:6px 20px 4px !important;
 }
 
 [dir="ltr"] .Tree-depth-4 > .Tree-collectionLabel{
-  padding:7px 20px !important;
+  padding:6px 20px 4px !important;
 }
 
 [dir="rtl"] .Tree-depth-3 > .Tree-collectionLabel{
-  padding:7px 0 !important;
+  padding:6px 0 4px !important;
 }
 
 [dir="rtl"] .Tree-depth-4 > .Tree-collectionLabel{
-  padding:7px 0 !important;
-}
-
-[dir="ltr"] .Tree-collectionItems{
-  margin-left:20px;
+  padding:6px 0 4px !important;
 }
 
 [dir="ltr"] .Tree-collectionItems .Tree-entityLink{
   margin-left:0 !important;
   padding:7px 20px !important;
-}
-
-[dir="ltr"] .Tree-collectionItems .Tree-collectionItems{
-  margin-left:20px;
-}
-
-[dir="rtl"] .Tree-collectionItems{
-  margin-right:20px;
 }
 
 [dir="rtl"] .Tree-collectionItems .Tree-entityLink{
@@ -389,6 +257,7 @@ a:hover{
 }
 
 .Browser-controls{
+  background-color:white;
   border-top:1px solid #EBECEE;
   border-bottom:1px solid #EBECEE;
   -webkit-box-shadow:none;
@@ -432,6 +301,10 @@ a:hover{
 }
 
 .Browser-panel .Code{
+  background-color:#FAFAFA;
+}
+
+.Browser-panel .Code pre{
   background-color:#FAFAFA;
 }
 
