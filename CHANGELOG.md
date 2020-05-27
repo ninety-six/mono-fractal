@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [1.1.2] - 2020-05-27
+### Fixed
+- Navigation icons
+
 ## [1.1.1] - 2020-04-29
 ### Changed
 - Atomic framework styles removed
@@ -48,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial build
 
-[Unreleased]: https://github.com/ninety-six/mono-fractal/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/ninety-six/mono-fractal/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.1.2
 [1.1.1]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.1.1
 [1.1.0]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.1.0
 [1.0.2]: https://github.com/ninety-six/mono-fractal/releases/tag/v1.0.2
